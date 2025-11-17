@@ -7,8 +7,7 @@
         <member name="T:BooseApp.BooseWrapper">
             <summary>
             Thin wrapper for BOOSE library. If the native BOOSE DLL is present in Resources,
-            it will attempt to call it. Otherwise, a minimal internal interpreter will
-            simulate moveto/drawto/circle/rect/pencolour/write for checkpoint purposes.
+            it will attempt to call it. 
             </summary>
         </member>
         <member name="M:BooseApp.BooseWrapper.RunProgram(System.String,System.Windows.Forms.PictureBox)">
@@ -31,3 +30,4 @@
         </member>
     </members>
 </doc>
+
