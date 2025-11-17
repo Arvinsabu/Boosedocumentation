@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BooseApp</name>
+    </assembly>
+    <members>
+        <member name="T:BooseApp.BooseWrapper">
+            <summary>
+            Thin wrapper for BOOSE library. If the native BOOSE DLL is present in Resources,
+            it will attempt to call it. Otherwise, a minimal internal interpreter will
+            simulate moveto/drawto/circle/rect/pencolour/write for checkpoint purposes.
+            </summary>
+        </member>
+        <member name="M:BooseApp.BooseWrapper.RunProgram(System.String,System.Windows.Forms.PictureBox)">
+            <summary>
+            Executes the given BOOSE-like program text.
+            </summary>
+            <param name="program">Program text</param>
+            <param name="canvasBox">PictureBox to draw on (nullable)</param>
+            <returns>Status message</returns>
+        </member>
+        <member name="M:BooseApp.BooseWrapper.About">
+            <summary>
+            About: returns a short description.
+            </summary>
+        </member>
+        <member name="M:BooseApp.BooseWrapper.GetPenPosition">
+            <summary>
+            Returns the current pen position (for tests).
+            </summary>
+        </member>
+    </members>
+</doc>
