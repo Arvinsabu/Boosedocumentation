@@ -7,6 +7,11 @@ Usage Summary:
 * Created WinForms app with boose (moveto/drawto/circle/rect/pencolour/write).
 * Added NUnit test project with three tests.
 * I needed a clear example of what a proper AI log looks like so I can
+* I needed to document my AI usage for my assignment and show that I used
+AI appropriately to support my learning.
+*I needed clarification about how my interpreter processes commands
+(moveto, drawto, circle, rectangle, etc.) and how to properly document
+my AI usage for assessment.
 
 include it in my assignment and show how I used AI during development.
 
